@@ -1,1 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+}
 
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+    background-color: #0099ff;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333333;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #0099ff;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+div {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #0099ff;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333333;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#endereco {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0099ff;
+}
+
+.menu li ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.icon-cep {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="%2300b7ff" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM6.5 7.5a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1h-3zm-2 2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zm-1 2a.5.5 0 0 1 0-1h9a.5.5 0 0 1 0 1h-9z"/></svg>');
+}
+
+.icon-buscar {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="%23ff7300" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM6.5 12a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/></svg>');
+}
+
+div {
+    border: 4px solid #00b7ff;
+}
+
+div::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="%23ff7300" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM6.5 7.5a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1h-3zm-2 2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zm-1 2a.5.5 0 0 1 0-1h9a.5.5 0 0 1 0 1h-9z"/></svg>');
+}
